@@ -514,7 +514,7 @@ const handler = async (m, { conn, command, text, args, usedPrefix }) => {
   }
   const infoText = `
    > ${botname} あ⁩ 」\n
-- Hii ${name} Senpai
+- Hii ${name} broo
     
 - *${ucpn}* 
    
@@ -531,12 +531,12 @@ const handler = async (m, { conn, command, text, args, usedPrefix }) => {
 ⛥ *Mode:* ${mode}
 ⛥ *Platform:* ${platform}
 ⛥ *Type:* NodeJs
-⛥ *Baileys:* Multi Device
+⛥ *Baileys:* ASUS ROG
 ⛥ *Prefix:* [ *${usedPrefix}* ]
 ⛥ *Uptime:* ${muptime}
 ⛥ *Database:*  ${totalreg}
 ╰──────────⳹
-> © Guru Sensei\n\n
+> © SAMRAT XD\n\n
 ${readMore}
 乂───『 *I N F O  C M D*』───乂 
 │ *${totalfeatures}* Commands
@@ -576,12 +576,12 @@ ${readMore}
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363178281296360@newsletter',
-        newsletterName: 'Click Here or u Gay',
+        newsletterName: 'Samriddho',
         serverMessageId: -1,
       },
       forwardingScore: 999,
       externalAdReply: {
-        title: 'ᴛʜᴇ ɢᴜʀᴜ-ʙᴏᴛ',
+        title: ' ​🇸​​🇦​​🇲​​🇷​​🇦​​🇹​-​🇽​​🇩​',
         body: 'ᴍᴇɴᴜ',
         thumbnailUrl: 'https://i.pinimg.com/736x/67/4b/41/674b416d858ce262be0c53253b3f1dcc.jpg',
         sourceUrl: 'https://guruapi.tech',
@@ -614,123 +614,81 @@ handler.before = async (m, { conn }) => {
   if (!m.quoted || m.quoted.id !== key.id || !m.text) return
   const choice = m.text.trim()
 
-  if (choice === '1') {
-    await conn.sendMessage(
-      m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: botmenu },
-      { quoted: fcontact }
-    )
-  } else if (choice === '2') {
-    await conn.sendMessage(
-      m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: ownermenu },
-      { quoted: fcontact }
-    )
-  } else if (choice === '3') {
-    await conn.sendMessage(
-      m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: groupmenu },
-      { quoted: fcontact }
-    )
-  } else if (choice === '4') {
-    await conn.sendMessage(
-      m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: funmenu },
-      { quoted: fcontact }
-    )
-  } else if (choice === '5') {
-    await conn.sendMessage(
-      m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: reactmenu },
-      { quoted: fcontact }
-    )
-  } else if (choice === '6') {
-    await conn.sendMessage(
-      m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: dlmenu },
-      { quoted: fcontact }
-    )
-  } else if (choice === '7') {
-    await conn.sendMessage(
-      m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: groupmenu },
-      { quoted: fcontact }
-    )
-  } else if (choice === '8') {
-    await conn.sendMessage(
-      m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: logomenu },
-      { quoted: fcontact }
-    )
-  } else if (choice === '9') {
-    await conn.sendMessage(
-      m.chat,
-      {
-        image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: stickermenu,
-      },
-      { quoted: fcontact }
-    )
-  } else if (choice === '10') {
-    await conn.sendMessage(
-      m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: audiomenu },
-      { quoted: fcontact }
-    )
-  } else if (choice === '11') {
-    await conn.sendMessage(
-      m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: newsmenu },
-      { quoted: fcontact }
-    )
-  } else if (choice === '12') {
-    await conn.sendMessage(
-      m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: economy },
-      { quoted: fcontact }
-    )
-  } else if (choice === '13') {
-    await conn.sendMessage(
-      m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: animemenu },
-      { quoted: fcontact }
-    )
-  } else if (choice === '14') {
-    await conn.sendMessage(
-      m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: nsfwmenu },
-      { quoted: fcontact }
-    )
-  } else if (choice === '15') {
-    await conn.sendMessage(
-      m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: toolsmenu },
-      { quoted: fcontact }
-    )
-  } else if (choice === '16') {
-    await conn.sendMessage(
-      m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: Aimenu },
-      { quoted: fcontact }
-    )
-  } else if (choice === '17') {
-    await conn.sendMessage(
-      m.chat,
-      {
-        image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: religionmenu,
-      },
-      { quoted: fcontact }
-    )
-  } else if (choice === '18') {
-    await conn.sendMessage(
-      m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: pluginmenu },
-      { quoted: fcontact }
-    )
-  } else {
-    m.reply('Invalid choice. Please reply with a valid number.')
-  }
+ if (choice === "1") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/HGSGFCD.jpg' },
+      caption: botmenu
+    }, { quoted:fcontact });
+    } else if (choice === "2") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/WCgjmIR.jpg' },
+      caption: ownermenu
+    }, { quoted:fcontact });
+    } else if (choice === "3") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/WCgjmIR.jpg' },
+      caption: groupmenu
+    }, { quoted:fcontact });
+    } else if (choice === "4") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/iyH60Su.jpg' },
+      caption: funmenu
+    }, { quoted:fcontact });
+    } else if (choice === "5") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/kfIMF6Y.jpg' },
+      caption: reactmenu
+    }, { quoted:fcontact });
+    } else if (choice === "6") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/sLs5Xhz.jpg' },
+      caption: dlmenu
+    }, { quoted:fcontact });
+    } else if (choice === "7") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/WCgjmIR.jpg' },
+      caption: groupmenu
+    }, { quoted:fcontact });
+    } else if (choice === "8") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/geErrMJ.jpg' },
+      caption: logomenu
+    }, { quoted:fcontact });
+    } else if (choice === "9") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/geErrMJ.jpg' },
+      caption: stickermenu
+    }, { quoted:fcontact });
+    } else if (choice === "10") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/sLs5Xhz.jpg' },
+      caption: audiomenu
+    }, { quoted:fcontact });
+    } else if (choice === "11") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/iyH60Su.jpg' },
+      caption: newsmenu
+    }, { quoted:fcontact });
+    } else if (choice === "12") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      caption: economy
+    }, { quoted:fcontact });
+    } else if (choice === "13") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/iyH60Su.jpg' },
+      caption: animemenu
+    }, { quoted:fcontact });
+    } else if (choice === "14") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/iyH60Su.jpg' },
+      caption: nsfwmenu
+    }, { quoted:fcontact });
+    } else if (choice === "15") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/iyH60Su.jpg' },
+      caption: toolsmenu
+    }, { quoted:fcontact });
+    } else if (choice === "16") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/iyH60Su.jpg' },
+      caption: Aimenu
+    }, { quoted:fcontact });
+    } else if (choice === "17") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/kfIMF6Y.jpg' },
+      caption: religionmenu
+    }, { quoted:fcontact });
+    } else if (choice === "18") {
+      await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/iyH60Su.jpg' },
+      caption: pluginmenu
+    }, { quoted:fcontact });
+    } else {
+      m.reply('Invalid choice. Please reply with a valid number.');
+    }
 }
 
 handler.help = ['play']
