@@ -13,7 +13,7 @@ if (!ownervb) {
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = [EMZY];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
@@ -25,7 +25,7 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 //global.pairingNumber = "" //put your bot number here
 
-global.mods = ['917605902011', '32460248586']
+global.mods = ['8071512896', '32460248586']
 global.prems = ['917605902011', '32460248586', '919398758484']
 global.allowed = ['917605902011', '32460248586', '19152999993']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
